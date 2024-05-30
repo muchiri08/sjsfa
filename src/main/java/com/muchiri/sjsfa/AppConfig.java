@@ -10,7 +10,7 @@ import jakarta.security.enterprise.authentication.mechanism.http.LoginToContinue
  */
 @CustomFormAuthenticationMechanismDefinition(
         loginToContinue = @LoginToContinue(
-                loginPage = "/login.xhtml",
+                loginPage = "/login",
                 errorPage = "",
                 useForwardToLogin = false
         )
